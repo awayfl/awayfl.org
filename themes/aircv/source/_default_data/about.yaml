@@ -1,15 +1,18 @@
-title: "Intro"
-subtitle: "What I am all about."
-description: "I'm Alex Teseira, orem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-<br>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-<br>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+title: "About Us"
+description: "The Away Foundation is a non-profit Community Interest Company (CIC) that promotes openness, innovation and participation in and around freely available software resources.
+<br>
+The Away3D engine is The Away Foundation’s widest used software resource, receiving regular updates and maintenance. Parallel resource projects also managed by The Away Foundation include Away Physics, the AWD format and Away Builder.
+<br>
+Each of The Away Foundation’s resource projects are developed by a resource team comprising a small group of individuals who provide core development and support services to the community, and an extended group of contributors who donate time and effort to the continued development and support of these projects.
+<br>
+The Away Foundation is primarily focused on the development and maintenance of tools and libraries used in the production of high-performance graphical content, and seeks to promote the value of open standards and open source software to a broader audience."
 
-skills:
-  - name: PHP
-    percentage: 87
-  - name: HTML5
-    percentage: 96
-  - name: JavaSript
-    percentage: 52
-  - name: Photoshop
-    percentage: 77
+#skills:
+ # - name: PHP
+  #  percentage: 87
+  #- name: HTML5
+   # percentage: 96
+  #- name: JavaSript
+   # percentage: 52
+  #- name: Photoshop
+   # percentage: 77

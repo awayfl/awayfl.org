@@ -1,16 +1,15 @@
-title: Contacts
-subtitle: Hire me.
+title: Contact us
 
 items:
-  - title: Location
-    content: Brookyln, New York
-    href: "#"
+  ##- title: Location
+  ##  content: 261 Bellenden Road Southwark, London, SE15 4DQ, UK
+  ##  href: "#"
   - title: Phone
-    content: +77 234 548 00 00
+    content: +44 (0) 207 193 4248
     href: "#"
   - title: Email
-    content: alex.teseira@gmail.com
+    content: info@theawayfoundation.org
     href: "#"
   - title: Web
-    content: alex.teseira.com
-    href: "#"
+    content: theawayfoundation.org
+    href: "http://www.theawayfoundation.org/"

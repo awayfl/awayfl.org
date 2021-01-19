@@ -1,3 +1,6 @@
-title: "Alex<br>Teseira"
-proposal_value: "Web Designer &amp; Front-end Developer"
-image: "img/1920x1080/01.jpg"
+layout: "right"
+title: "AwayFL"
+proposal_value: "AwayFL is an open source Adobe Flash Player emulator, allowing the playback of .SWF files natively in a browser. 
+                It is written in Typescript and is compatible with ES3, ES5 and ES6 Javascript outputs."
+image: "img/1920x1080/black background.png"
+logo: "img/awayfl logo big.png"

@@ -1,27 +1,27 @@
-- text: Facebook
-  href: "#"
+- text: Get Started
+  href: "https://github.com/awayfl/awayfl-player"
   #icon: "fab fa-facebook"
-  icon: icon-social-facebook
+  icon: "icon-social-facebook"
 
-- text: Instagram
-  href: "#"
+- text: Github
+  href: "https://github.com/awayfl"
 #  #icon: "fab fa-instagram"
   icon: "icon-social-instagram"
 
-- text: Twitter
-  href: "#"
+- text: Documentation
+  href: "https://awayjs.github.io/docs/"
   #icon: "fab fa-twitter"
   icon: "icon-social-twitter"
 
-- text: Linkedin
-  href: "#"
-  #icon: "fab fa-linkedin-in"
-  icon: "icon-social-linkedin"
+#- text: Linkedin
+#  href: "#"
+#  #icon: "fab fa-linkedin-in"
+#  icon: "icon-social-linkedin"
 
-- text: Dribbble
-  href: "#"
+#- text: Dribbble
+#  href: "#"
   #icon: "fab fa-dribbble-in"
-  icon: "icon-social-dribbble"
+#  icon: "icon-social-dribbble"
 
 #- text: Behance
 #  href: "#"

@@ -1,14 +1,14 @@
 - text: Home
   href: "#body"
 
-- text: About
-  href: "#about"
+- text: News
+  href: "#news"
 
-- text: Experience
-  href: "#experience"
+- text: Works
+  href: "#works"
 
-- text: Work
-  href: "#work"
+- text: About Us
+  href: "#aboutus"
 
 - text: Contact
   href: "#contact"

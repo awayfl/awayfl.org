@@ -1,5 +1,4 @@
-title: Experience
-subtitle: Batman would be jealous.
+title: News
 
 items:
   - title: HTML5/CSS3
@@ -20,3 +19,4 @@ items:
     button: "Tell me more"
     icon: "icon-badge"
     featured: false
+  
