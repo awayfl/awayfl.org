@@ -1,0 +1,42 @@
+#post {
+  padding: 80px 60px;
+
+  h1 {
+    margin-top: 80px;
+  }
+
+  h2 {
+    margin-top: 60px;
+  }
+
+  h3, h4, h5 {
+    margin-top: 20px;
+  }
+
+  img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+  }
+
+  .post-title{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 0px;
+  }
+
+  .date {
+    width: 100%;
+    text-align: center;
+    font-size: 14px;
+  }
+
+}
+
+@media (max-width: $screen-sm-max) {
+  #post {
+    padding: 20px 40px;
+  }
+}
+
