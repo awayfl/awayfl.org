@@ -10,7 +10,7 @@ keywords:
 author: Rob Bateman
 language: en
 timezone: ''
-favicon_all: '/img/favicon'
+favicon: '/img/favicon.png'
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://example.com/child' and root as '/child/'
@@ -93,6 +93,10 @@ pagination_dir: page
 # Include / Exclude file(s)
 ## include:/exclude: options only apply to the 'source/' folder
 include:
+  # Include any file in 'source/_css/'.
+  - "_css/*"
+  # Include any file and subfolder in 'source/_css/'.
+  - "_css/**/*"
 exclude:
 ignore:
 

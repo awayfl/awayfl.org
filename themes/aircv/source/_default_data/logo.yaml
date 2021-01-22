@@ -1,5 +1,5 @@
-image: "img/awayfl-logo_large_trans_white.png"
-image_dark: "img/awayfl-logo_large_trans.png"
+image: "/img/awayfl-logo_large_trans_white.png"
+image_dark: "/img/awayfl-logo_large_trans.png"
 
 text: ""
 text_dark: ""
