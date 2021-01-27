@@ -20,6 +20,11 @@
 		color: $color-white;
 	}
 
+	.promo-block-link {
+		@include font($size: 20px);
+		color: $color-white;
+	}
+
 	.promo-block-divider {
 		border-bottom: 1px solid rgba(255,255,255,.4);
 		padding-bottom: 20px;
