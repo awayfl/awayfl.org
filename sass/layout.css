@@ -406,6 +406,9 @@ h4 {
   .promo-block .promo-block-text {
     font-size: 25px;
     color: #fff; }
+  .promo-block .promo-block-link {
+    font-size: 20px;
+    color: #fff; }
   .promo-block .promo-block-divider {
     border-bottom: 1px solid rgba(255, 255, 255, 0.4);
     padding-bottom: 20px;
