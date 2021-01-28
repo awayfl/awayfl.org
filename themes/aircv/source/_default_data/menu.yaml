@@ -1,8 +1,8 @@
 - text: Home
   href: "#body"
 
-- text: News
-  href: "#news"
+#- text: News
+#  href: "#news"
 
 - text: Works
   href: "#works"

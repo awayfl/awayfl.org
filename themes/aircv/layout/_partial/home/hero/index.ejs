@@ -1,4 +1,3 @@
-
 <%
 // adds default data usign "theme/aircv/scripts/default-data.js" helper
 let hero = (site.data.hero !== undefined) ? site.data.hero : defaultData('hero');
@@ -19,19 +18,22 @@ let social = (site.data.social !== undefined) ? site.data.social : defaultData('
               
               <ul class="list-inline">
                   <%# social %>
-                  <a href="https://github.com/awayfl/awayfl-player">
-                    <image src="img/buttons/get-started-btn.png" style="width:131px;height:36px;"></image>
-                  </a>
-                  <a href="https://github.com/awayfl">
-                    <image src="img/buttons/github-btn.png" style="width:131px;height:36px;"></image>
-                  </a>
-                  <a href="https://awayjs.github.io/docs/">
-                    <image src="img/buttons/documentation-btn.png" style="width:151px;height:44px; vertical-align: middle;"></image>
-                  </a>
-                <% social.forEach(social => { %>
-                  <!--<li><a title="<%= social.text %>" href="<%= social.href %>" class="social-icons"><i class="<%= social.icon %>"></i></a></li>-->
-                  
-                <% }); %>
+                    <li>
+                    <a href="https://github.com/awayfl/awayfl-player">
+                        <h3 class="promo-block-link">Getting Started</h3>
+                    </a>
+                    <li>
+                    <li>
+                    <a href="https://github.com/awayfl">
+                        <h3 class="promo-block-link">Github</h3>
+                    </a>
+                    </li>
+                    <li>
+                    <a href="https://awayjs.github.io/docs/">
+                        <h3 class="promo-block-link">API Documentation</h3>
+                    </a>
+                    </li>
+                <% social.forEach(social => { %><% }); %>
               </ul>
           </div>
       </div>
