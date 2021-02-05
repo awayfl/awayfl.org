@@ -188,7 +188,7 @@
     /* Bootstrap collapse of navigation with a maximum width: 991px
     (Change it to any breakpoint you want to be collapsed) */
     .header {
-        background: $color-white;
+        background: $color-blueGrey;
 
         .navbar-toggle {
             display: block;
@@ -304,7 +304,7 @@
     .page-on-scroll {
         .header {
             .navbar {
-                background: $color-white;
+                background: $color-blueGrey;
                 border-bottom-color: #f0f0f0;
                 @include cubic-transition($delay: 0, $duration: 300ms, $property: (all));
             }
