@@ -578,6 +578,58 @@ h4 {
     font-weight: 500; }
 
 /*------------------------------------------------------------------
+  	[Sponsor]
+------------------------------------------------------------------*/
+.sponsor {
+  background: #fff;
+  padding: 30px; }
+  .sponsor .sponsor-element,
+  .sponsor .sponsor-info {
+    -webkit-transform: translate3d(0, 0, 0);
+    -moz-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    transition-duration: 300ms;
+    transition-property: all;
+    transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1); }
+  .sponsor .sponsor-icon {
+    display: block;
+    font-size: 30px;
+    color: #3651b6;
+    margin-bottom: 30px; }
+  .sponsor .sponsor-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%; }
+  .sponsor .sponsor-button {
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s, opacity 0.5s linear; }
+  .sponsor:hover .sponsor-element {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -100%, 0);
+    -moz-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0);
+    transition-duration: 300ms;
+    transition-property: all;
+    transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1); }
+  .sponsor:hover .sponsor-info {
+    -webkit-transform: translate3d(0, -30%, 0);
+    -moz-transform: translate3d(0, -30%, 0);
+    transform: translate3d(0, -30%, 0);
+    transition-duration: 300ms;
+    transition-property: all;
+    transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1); }
+  .sponsor:hover .sponsor-button {
+    visibility: visible;
+    opacity: 1; }
+
+@media (max-width: 991px) {
+  .sponsor .sponsor-button {
+    visibility: visible;
+    opacity: 1; } }
+
+/*------------------------------------------------------------------
   	[Footer]
 ------------------------------------------------------------------*/
 .footer .footer-logo {
