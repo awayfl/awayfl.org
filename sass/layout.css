@@ -806,7 +806,7 @@ h4 {
   /* Bootstrap collapse of navigation with a maximum width: 991px
     (Change it to any breakpoint you want to be collapsed) */
   .header {
-    background: #fff; }
+    background: #1A2029; }
     .header .navbar-toggle {
       display: block; }
     .header .navbar-collapse {
@@ -875,7 +875,7 @@ h4 {
 /* Page On Scroll */
 @media (min-width: 992px) {
   .page-on-scroll .header .navbar {
-    background: #fff;
+    background: #1A2029;
     border-bottom-color: #f0f0f0;
     transition-duration: 300ms;
     transition-property: all;
