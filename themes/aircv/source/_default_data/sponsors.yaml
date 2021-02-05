@@ -1,0 +1,33 @@
+title: Sponsors
+
+items:
+  - title: 
+    content: ""
+    href: "#"
+    button: "Damp Gnat >"
+    image: "img/sponsors/DampGnat_logo05_stacked.png"
+    featured: false
+  - title: 
+    content: ""
+    href: "#"
+    button: "Sunflower >"
+    image: "img/sponsors/sunflower-logo.png"
+    featured: false
+  - title: 
+    content: ""
+    href: "#"
+    button: "StatProf >"
+    image: "img/sponsors/SatProfLogo2018_LightTransparentwhole200px1.png"
+    featured: false
+#  - title: Empty
+#    content: ""
+#    href: "#"
+#    button: "Tell me more"
+#    icon: "icon-badge"
+#    featured: false
+#  - title: Empty
+#    content: ""
+#    href: "#"
+#    button: "Tell me more"
+#    icon: "icon-badge"
+#    featured: false

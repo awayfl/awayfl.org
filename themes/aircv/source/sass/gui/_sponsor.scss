@@ -1,0 +1,61 @@
+/*------------------------------------------------------------------
+  	[Sponsor]
+------------------------------------------------------------------*/
+
+.sponsor {
+	background: $color-white;
+	padding: 30px;
+
+	.sponsor-element,
+	.sponsor-info {
+		@include translate3d(0,0,0);
+		@include cubic-transition($delay: 0, $duration: 300ms, $property: (all));
+	}
+
+	.sponsor-icon {
+		display: block;
+		@include font($size: 30px);
+		color: $color-link-hover;
+		margin-bottom: 30px;
+	}
+    
+    .sponsor-img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 100%;
+    }
+    
+	.sponsor-button {
+		visibility: hidden;
+		opacity: 0;
+		transition: visibility 0s, opacity 0.5s linear;
+	}
+
+	&:hover {
+		.sponsor-element {
+			opacity: 0;
+			@include translate3d(0,-100%,0);
+			@include cubic-transition($delay: 0, $duration: 300ms, $property: (all));
+		}
+
+		.sponsor-info {
+			@include translate3d(0,-30%,0);
+			@include cubic-transition($delay: 0, $duration: 300ms, $property: (all));
+		}
+
+		.sponsor-button {
+			visibility: visible;
+  		opacity: 1;
+		}
+	}
+}
+
+@media (max-width: $screen-sm-max) {
+	.sponsor {
+		.sponsor-button {
+			visibility: visible;
+			opacity: 1;
+		}
+	}
+}

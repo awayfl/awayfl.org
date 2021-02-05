@@ -1,0 +1,51 @@
+
+<%
+// adds default data usign "theme/aircv/scripts/defaultData.js" helper
+let sponsors = (site.data.sponsors !== undefined) ? site.data.sponsors : defaultData('sponsors');
+%>
+
+
+<!-- Sponsors -->
+<div id="sponsors">
+  <div class="bg-color-sky-light" data-auto-height="true">
+      <div class="container content-lg">
+          <div class="row">
+              <div class="col-sm-3">
+                  <div class="text-right sm-text-left">
+                      <h2 class="margin-b-0"><%= sponsors.title %></h2>
+                      <p><%- sponsors.subtitle %></p>
+                  </div>
+              </div>
+          <div>
+          <div style="clear:both;margin-bottom:0px"></div>
+          <div class="row">
+                  <div class="col col-sm-offset-1">
+                    <% sponsors.items.forEach(item => { %>
+                        <div class="col-md-2.4 col-xs-2">
+                            <div class="sponsor <% if(item.featured) { %> bg-color-base wow zoomIn <% } %>" data-height="height" <% if(item.featured) { %> data-wow-duration=".3" data-wow-delay=".1s" <% } %> >
+                                <div class="sponsor-element">
+                                    <i class="sponsor-icon <%= item.icon %>"></i>
+                                    <img class="sponsor-img" src="<%= item.image %>" ></img> 
+                                </div>
+                                <div class="sponsor-info">
+                                    <h3 <% if(item.featured) { %> class="color-white" <% } %> > <%- item.title %></h3>
+                                    <p class=" <% if(item.featured) { %> color-white <% } %>"><%- item.content %></p>
+                                    <% if(item.button) { %>
+                                        <div class="sponsor-button">
+                                            <button class="btn btn-theme <%= (item.featured) ? 'btn-white-bg' : 'btn-default-bg' %>"> <%= item.button %> </button>
+                                        </div>
+                                    <% } %>
+                                </div>
+                                <a href="<%= item.href %>" class="content-wrapper-link"></a>
+                            </div>
+                        </div>
+                    <% }); %>
+                  </div>
+                 <!--// end row -->
+              </div>
+          </div>
+          <!--// end row -->
+      </div>
+  </div>
+</div>
+<!-- End Contact -->
