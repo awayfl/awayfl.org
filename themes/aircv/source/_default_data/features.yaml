@@ -1,0 +1,15 @@
+title: "Features"
+
+skills:
+  - name: AS1 / AS2 Virtual Machine
+    percentage: 87
+  - name: AS3 Virtual Machine
+    percentage: 55
+  - name: Timeline execution & logic
+    percentage: 95
+  - name: Flash 8 Filters
+    percentage: 30
+  - name: Text Layout Framework (TLF)
+    percentage: 25
+  - name: Stage3D
+    percentage: 0

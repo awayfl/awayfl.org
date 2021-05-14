@@ -1,0 +1,30 @@
+
+<%
+// adds default data usign "theme/aircv/scripts/defaultData.js" helper
+let community = (site.data.community !== undefined) ? site.data.community : defaultData('community');
+%>
+
+
+<!-- Community -->
+<div id="community">
+  <div class="bg-color-sky-light">
+      <div class="container content-lg">
+          <div class="row">
+              <div class="col-sm-12">
+                <div class="margin-b-40">
+                    <h2 class="margin-b-0"><%- community.title %></h2>
+                      <p><%- community.subtitle %></p>
+                  </div>
+                    <% community.items.forEach(item => { %>
+                        <div class="col-md-3 col-xs-6 md-margin-b-30">
+                            <h3><%= item.title %></h3>
+                            <a href="<%= item.href %>"><%= item.content %></a>
+                        </div>
+                    <% }); %>
+              </div>
+          </div>
+          <!--// end row -->
+      </div>
+  </div>
+</div>
+<!-- End Community -->

@@ -1,7 +1,7 @@
 
 <%
 // adds default data usign "theme/aircv/scripts/default-data.js" helper
-let portfolio = (site.data.portfolio !== undefined) ? site.data.portfolio : defaultData('portfolio');
+let showcase = (site.data.showcase !== undefined) ? site.data.showcase : defaultData('showcase');
 %>
 
 <!-- Masonry Grid -->
@@ -9,12 +9,12 @@ let portfolio = (site.data.portfolio !== undefined) ? site.data.portfolio : defa
 
   <div class="masonry-grid-sizer col-xs-6 col-sm-6 col-md-1"></div>
 
-  <% portfolio.items.forEach(item => { %>
+  <% showcase.items.forEach(item => { %>
     <div class="masonry-grid-item <%= item.grid_class %>">
       <!-- Work -->
       <div class="work work-popup-trigger">
           <div class="work-overlay">
-              <img class="full-width img-responsive" src="<%= item.image %>" alt="Portfolio Image">
+              <img class="full-width img-responsive" src="<%= item.image %>" alt="Showcase Image">
               <div class="work-overlay-label">
                 <p> <%= item.title %></p>
               </div>

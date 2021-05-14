@@ -1,0 +1,22 @@
+
+<%
+// adds default data usign "theme/aircv/scripts/default-data.js" helper
+let showcase = (site.data.showcase !== undefined) ? site.data.showcase : defaultData('showcase');
+%>
+
+<!-- Showcase -->
+<div id="showcase">
+  <div class="container content-lg">
+      <div class="row">
+          <div class="col-sm-12">
+            <div class="margin-b-40">
+              <h2 class="margin-b-0"><%- showcase.title %></h2>
+                <p><%- showcase.subtitle %></p>
+            </div>
+            <%- partial('masonry_grid') %>
+          </div>
+      </div>
+      <!--// end row -->
+  </div>
+</div>
+<!-- Showcase -->

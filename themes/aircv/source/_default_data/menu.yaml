@@ -4,17 +4,17 @@
 #- text: News
 #  href: "#news"
 
-- text: Works
-  href: "#works"
+- text: Showcase
+  href: "#showcase"
 
-- text: About Us
-  href: "#aboutus"
+- text: Features
+  href: "#features"
 
 - text: Sponsors
   href: "#sponsors"
 
-- text: Contact
-  href: "#contact"
+- text: Community
+  href: "#community"
 
 #- text: Blog
 #  href: "/blog"

@@ -25,5 +25,8 @@
     "hexo-server": "^2.0.0",
     "imageinfo": "^1.0.4",
     "js-yaml": "^3.14.0"
+  },
+  "devDependencies": {
+    "hexo-browsersync": "^0.3.0"
   }
 }
