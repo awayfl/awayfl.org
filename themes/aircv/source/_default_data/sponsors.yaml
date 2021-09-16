@@ -3,21 +3,33 @@ title: Sponsors
 items:
   - title: 
     content: ""
-    href: "#"
+    href: "https://poki.com"
+    button: "Poki >"
+    image: "img/sponsors/logo_main_crop.png"
+    featured: false
+  - title: 
+    content: ""
+    href: "http://www.dampgnat.com/"
     button: "Damp Gnat >"
     image: "img/sponsors/DampGnat_logo05_stacked.png"
     featured: false
   - title: 
     content: ""
-    href: "#"
+    href: "https://www.sunflowerlearning.com/"
     button: "Sunflower >"
     image: "img/sponsors/sunflower-logo.png"
     featured: false
   - title: 
     content: ""
-    href: "#"
-    button: "StatProf >"
+    href: "https://satprof.com/"
+    button: "Satprof >"
     image: "img/sponsors/SatProfLogo2018_LightTransparentwhole200px1.png"
+    featured: false
+  - title: 
+    content: ""
+    href: "https://www.whizz.com/"
+    button: "Maths-Whizz >"
+    image: "img/sponsors/en-gb.svg"
     featured: false
 #  - title: Empty
 #    content: ""
