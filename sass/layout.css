@@ -806,7 +806,7 @@ h4 {
   /* Bootstrap collapse of navigation with a maximum width: 991px
     (Change it to any breakpoint you want to be collapsed) */
   .header {
-    background: #1A2029; }
+    background: #fff; }
     .header .navbar-toggle {
       display: block; }
     .header .navbar-collapse {
@@ -875,7 +875,7 @@ h4 {
 /* Page On Scroll */
 @media (min-width: 992px) {
   .page-on-scroll .header .navbar {
-    background: #1A2029;
+    background: #fff;
     border-bottom-color: #f0f0f0;
     transition-duration: 300ms;
     transition-property: all;
@@ -1097,8 +1097,8 @@ h4 {
   padding-bottom: 80px; }
 
 .content-lg {
-  padding-top: 100px;
-  padding-bottom: 100px; }
+  padding-top: 50px;
+  padding-bottom: 50px; }
 
 /*------------------------------------------------------------------
     [Full Width]
