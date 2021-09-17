@@ -1,15 +1,31 @@
 title: "Features"
+supported_subtitle: "Supported"
+supported_skills:
+  - name: ActionsScript 1, 2 & 3 execution
+    percentage: 90
+  - name: Timeline playback & scripting
+    percentage: 100
+  - name: MovieClip, Button, Graphic and Textfield primitives
+    percentage: 100
+  - name: Scripted graphics API
+    percentage: 90
+  - name: Dynamic masks (timeline & script based)
+    percentage: 100
+  - name: Sound manipulation (AS2 & AS3)
+    percentage: 80
 
-skills:
-  - name: AS1 / AS2 Virtual Machine
-    percentage: 87
-  - name: AS3 Virtual Machine
-    percentage: 55
-  - name: Timeline execution & logic
-    percentage: 95
-  - name: Flash 8 Filters
-    percentage: 30
-  - name: Text Layout Framework (TLF)
-    percentage: 25
-  - name: Stage3D
-    percentage: 0
+development_subtitle: "In-Development"
+
+development_skills:
+  - name:  Flash 8 filter effects 
+    percentage: 50
+  - name: Photoshop-style blend modes
+    percentage: 50
+  - name:  Adobe Text Layout Framework (TLF)
+    percentage: 40
+  - name: Stage3D APIs & Texture formats
+    percentage: 10
+  - name: H.264 Video streaming 
+    percentage: 5
+  - name:  Camera & microphone input
+    percentage: 5

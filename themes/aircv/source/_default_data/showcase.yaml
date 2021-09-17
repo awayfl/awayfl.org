@@ -2,142 +2,523 @@ title: Showcase
 
 items:
 #1
-  - grid_class: "col-xs-12 col-sm-6 col-md-8 margin-b-4"
-    image: "img/800x400/01.jpg"
+  - grid_class: "col-xs-12 col-sm-6 col-md-3 margin-b-4"
+    image: "img/256x256/bic1_256.png"
     hide_text: "Hide"
-    title: "Art Of Coding"
-    subtitle: "Clean &amp; Minimalistic Design"
-    description: "<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
-    "
+    title: "Bad Ice Cream"
+    subtitle: "Nitrome"
+    description: "<p>Bad Ice-Cream is a 2-player puzzle game developed by Nitrome. Choose a flavor, and add fruit to your ice cream! This sub-zero Pacman mod features cool graphics and tasty desserts.</p>"
     cta: "Show me more"
-    href: "#"
+    href: "https://poki.com/en/g/bad-ice-cream"
     tags:
-      - text: "Design, "
-        href: "https://keenthemes.com/"
-      - text: "Coding, "
-        href: "https://keenthemes.com/"
-      - text: "Portfolio"
-        href: "https://keenthemes.com/"
+      - text: "Poki"
+        href: "https://poki.com"
     parameters:
-      - title: "Project Leader"
-        text: "John Doe"
-      - title: "Designer"
-        text: "Keenthemes"
-      - title: "Developer"
-        text: " Alisa Keys"
-      - title: "Customer"
-        text: "Mark Doe"
+      - title: "Creator"
+        text: "Nitrome"
+      - title: "Publisher"
+        text: "Poki"
 
 #2
-  - grid_class: "col-xs-12 col-sm-6 col-md-4 margin-b-4"
-    image: "img/397x400/01.jpg"
+  - grid_class: "col-xs-12 col-sm-6 col-md-3 margin-b-4"
+    image: "img/256x256/sugarsugar_256.png"
     hide_text: "Hide"
-    title: "Art Of Coding"
-    subtitle: "Clean &amp; Minimalistic Design"
-    description: "<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
-    "
+    title: "Sugar Sugar"
+    subtitle: "Bart Bonte"
+    description: "<p>Sugar, Sugar is a simulation game created by Bart Bonte. Solve puzzles by sifting the sugar into coffee cups! Your job is to draw bridges and well-placed lines to capture each grain.</p>"
     cta: "Show me more"
-    href: "#"
+    href: "https://poki.com/en/g/sugar-sugar"
     tags:
-      - text: "Design, "
-        href: "https://keenthemes.com/"
-      - text: "Coding, "
-        href: "https://keenthemes.com/"
-      - text: "Portfolio"
-        href: "https://keenthemes.com/"
+      - text: "Poki"
+        href: "https://poki.com"
     parameters:
-      - title: "Project Leader"
-        text: "John Doe"
-      - title: "Designer"
-        text: "Keenthemes"
-      - title: "Developer"
-        text: " Alisa Keys"
-      - title: "Customer"
-        text: "Mark Doe"
+      - title: "Creator"
+        text: "Bart Bonte"
+      - title: "Publisher"
+        text: "Poki"
 
 #3
-  - grid_class: "col-xs-12 col-sm-6 col-md-4 md-margin-b-4"
-    image: "img/397x300/01.jpg"
+  - grid_class: "col-xs-12 col-sm-6 col-md-3 margin-b-4"
+    image: "img/256x256/fp1_256.png"
     hide_text: "Hide"
-    title: "Art Of Coding"
-    subtitle: "Clean &amp; Minimalistic Design"
-    description: "<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
-    "
+    title: "Fancy Pants World 1"
+    subtitle: "Brad Borne"
+    description: "<p>The Fancy Pants Adventures: World 1 is an epic adventure platformer created by Brad Borne. In the first chapter of this legendary series, you will embark on a perilous journey to find your kidnapped sister.</p>"
     cta: "Show me more"
-    href: "#"
+    href: "https://poki.com/en/g/fancy-pants"
     tags:
-      - text: "Design, "
-        href: "https://keenthemes.com/"
-      - text: "Coding, "
-        href: "https://keenthemes.com/"
-      - text: "Portfolio"
-        href: "https://keenthemes.com/"
+      - text: "Poki"
+        href: "https://poki.com"
     parameters:
-      - title: "Project Leader"
-        text: "John Doe"
-      - title: "Designer"
-        text: "Keenthemes"
-      - title: "Developer"
-        text: " Alisa Keys"
-      - title: "Customer"
-        text: "Mark Doe"
-
+      - title: "Creator"
+        text: "Brad Borne"
+      - title: "Publisher"
+        text: "Poki"
 
 #4
-  - grid_class: "col-xs-12 col-sm-6 col-md-4 md-margin-b-4"
-    image: "img/397x300/02.jpg"
+  - grid_class: "col-xs-12 col-sm-6 col-md-3 margin-b-4"
+    image: "img/256x256/breakingthebank_256.png"
     hide_text: "Hide"
-    title: "Art Of Coding"
-    subtitle: "Clean &amp; Minimalistic Design"
-    description: "<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
-    "
+    title: "Breaking The Bank"
+    subtitle: "Puffballs United"
+    description: "<p>Breaking the Bank is the first installment of the popular Henry Stickmin game series. Help Henry Stickmin break into a bank that's situated in the middle of a desert.</p>"
     cta: "Show me more"
-    href: "#"
+    href: "https://poki.com/en/g/breaking-the-bank"
     tags:
-      - text: "Design, "
-        href: "https://keenthemes.com/"
-      - text: "Coding, "
-        href: "https://keenthemes.com/"
-      - text: "Portfolio"
-        href: "https://keenthemes.com/"
+      - text: "Poki"
+        href: "https://poki.com"
     parameters:
-      - title: "Project Leader"
-        text: "John Doe"
-      - title: "Designer"
-        text: "Keenthemes"
-      - title: "Developer"
-        text: " Alisa Keys"
-      - title: "Customer"
-        text: "Mark Doe"
+      - title: "Creator"
+        text: "Puffballs United"
+      - title: "Publisher"
+        text: "Poki"
 
 #5
-  - grid_class: "col-xs-12 col-sm-6 col-md-4"
-    image: "img/397x300/03.jpg"
+  - grid_class: "col-xs-12 col-sm-6 col-md-3 margin-b-4"
+    image: "img/256x256/cavechaos1_256.png"
     hide_text: "Hide"
-    title: "Art Of Coding"
-    subtitle: "Clean &amp; Minimalistic Design"
-    description: "<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
-    "
+    title: "Cave Chaos"
+    subtitle: "Nitrome"
+    description: "<p>Cave Chaos is a platforming game created by Nitrome. You're a miner whose goal is to escape a collapsing cave. Start running immediately and pick up the loot on your way before reaching the end of the level.</p>"
     cta: "Show me more"
-    href: "#"
+    href: "https://poki.com/en/g/cave-chaos"
     tags:
-      - text: "Design, "
-        href: "https://keenthemes.com/"
-      - text: "Coding, "
-        href: "https://keenthemes.com/"
-      - text: "Portfolio"
-        href: "https://keenthemes.com/"
+      - text: "Poki"
+        href: "https://poki.com"
     parameters:
-      - title: "Project Leader"
-        text: "John Doe"
-      - title: "Designer"
-        text: "Keenthemes"
-      - title: "Developer"
-        text: " Alisa Keys"
-      - title: "Customer"
-        text: "Mark Doe"
+      - title: "Creator"
+        text: "Nitrome"
+      - title: "Publisher"
+        text: "Poki"
+
+#6
+  - grid_class: "col-xs-12 col-sm-6 col-md-3 margin-b-4"
+    image: "img/256x256/skywire1_256.png"
+    hide_text: "Hide"
+    title: "Skywire"
+    subtitle: "Nitrome"
+    description: "<p>Skywire is an action platform game created by Nitrome. In this game, you help carry your passengers to the station while navigating the vessel on the rail. Avoid dangerous robotic animals such as ostriches, parrots, rhinos, and camels, as they will cause your passengers to fall off.</p>"
+    cta: "Show me more"
+    href: "https://poki.com/en/g/skywire"
+    tags:
+      - text: "Poki"
+        href: "https://poki.com"
+    parameters:
+      - title: "Creator"
+        text: "Nitrome"
+      - title: "Publisher"
+        text: "Poki"
+
+#7
+  - grid_class: "col-xs-12 col-sm-6 col-md-3 margin-b-4"
+    image: "img/256x256/bic2_256.png"
+    hide_text: "Hide"
+    title: "Bad Ice Cream 2"
+    subtitle: "Nitrome"
+    description: "<p>Bad Ice-Cream 2 is a 2-player puzzle game developed by Nitrome. Choose a flavor, and add fruit to your ice cream! Go to war with soft-serve ice cream and hungry foes on icy battlefields! In Bad Ice-Cream 2, you will play as a rogue dessert that refuses to be eaten.</p>"
+    cta: "Show me more"
+    href: "https://poki.com/en/g/bad-ice-cream-2"
+    tags:
+      - text: "Poki"
+        href: "https://poki.com"
+    parameters:
+      - title: "Creator"
+        text: "Nitrome"
+      - title: "Publisher"
+        text: "Poki"
+
+#8
+  - grid_class: "col-xs-12 col-sm-6 col-md-3 margin-b-4"
+    image: "img/256x256/mutiny_256.png"
+    hide_text: "Hide"
+    title: "Mutiny"
+    subtitle: "Nitrome"
+    description: "<p>Mutiny is an action strategy game created by Nitrome. The player takes on the role of pirates fighting against other sea-bound enemies using various weapons- most of which come in limited quantities.</p>"
+    cta: "Show me more"
+    href: "https://poki.com/en/g/mutiny"
+    tags:
+      - text: "Poki"
+        href: "https://poki.com"
+    parameters:
+      - title: "Creator"
+        text: "Nitrome"
+      - title: "Publisher"
+        text: "Poki"
+
+#9
+  - grid_class: "col-xs-12 col-sm-6 col-md-3 margin-b-4"
+    image: "img/256x256/escapingtheprison_256.png"
+    hide_text: "Hide"
+    title: "escaping The Prison"
+    subtitle: "Puffballs United"
+    description: "<p>Escaping the Prison is the second installment of the Henry Stickmin legacy series. Your objective is to get past the guards without being caught.</p>"
+    cta: "Show me more"
+    href: "https://poki.com/en/g/escaping-the-prison"
+    tags:
+      - text: "Poki"
+        href: "https://poki.com"
+    parameters:
+      - title: "Creator"
+        text: "Puffballs United"
+      - title: "Publisher"
+        text: "Poki"
+
+#10
+  - grid_class: "col-xs-12 col-sm-6 col-md-3 margin-b-4"
+    image: "img/256x256/toomanyninjas_256.png"
+    hide_text: "Hide"
+    title: "Too Many Ninjas"
+    subtitle: "Bennett Foddy"
+    description: "<p>Too Many Ninjas is an action arcade game created by Bennett Foddy. Play as a katana warrior during an ambush of ninjas. You can't move your character, but you can move your sword freely.</p>"
+    cta: "Show me more"
+    href: "https://poki.com/en/g/too-many-ninjas"
+    tags:
+      - text: "Poki"
+        href: "https://poki.com"
+    parameters:
+      - title: "Creator"
+        text: "Bennett Foddy"
+      - title: "Publisher"
+        text: "Poki"
+
+#11
+  - grid_class: "col-xs-12 col-sm-6 col-md-3 margin-b-4"
+    image: "img/256x256/coldstorage_256.jpg"
+    hide_text: "Hide"
+    title: "Cold Storage"
+    subtitle: "Nitrome"
+    description: "<p>Cold Storage is a jumping platformer game created by Nitrome. You play as a yeti who has been captured by a giant and thrown into his deep-freeze larder cave, and your objective is to escape the cave by jumping and swinging on the metal hanging poles.</p>"
+    cta: "Show me more"
+    href: "https://poki.com/en/g/cold-storage"
+    tags:
+      - text: "Poki"
+        href: "https://poki.com"
+    parameters:
+      - title: "Creator"
+        text: "Nitrome"
+      - title: "Publisher"
+        text: "Poki"
+
+#12
+  - grid_class: "col-xs-12 col-sm-6 col-md-3 margin-b-4"
+    image: "img/256x256/tiq_256.png"
+    hide_text: "Hide"
+    title: "The Impossible Quiz"
+    subtitle: "Splapp-me-do"
+    description: "<p>The Impossible Quiz is an online trivia quiz that features only very hard questions. Many of the questions have double meanings, tricks and puns and requires you to think outside the box. Out of the four answers, only one answer is right.</p>"
+    cta: "Show me more"
+    href: "https://poki.com/en/g/the-impossible-quiz"
+    tags:
+      - text: "Poki"
+        href: "https://poki.com"
+    parameters:
+      - title: "Creator"
+        text: "Splapp-me-do"
+      - title: "Publisher"
+        text: "Poki"
+
+#13
+  - grid_class: "col-xs-12 col-sm-6 col-md-3 margin-b-4"
+    image: "img/256x256/sugarsugar2_256.png"
+    hide_text: "Hide"
+    title: "Sugar Sugar 2"
+    subtitle: "Bart Bonte"
+    description: "<p>Sugar, Sugar 2 is a simulation game created by Bart Bonte. In the sequel to the popular Sugar, Sugar game, you'll try to solve carefully crafted puzzles by sifting sugar into coffee cups. Your job is to draw bridges and well-placed lines to capture each grain.</p>"
+    cta: "Show me more"
+    href: "https://poki.com/en/g/sugar-sugar-2"
+    tags:
+      - text: "Poki"
+        href: "https://poki.com"
+    parameters:
+      - title: "Creator"
+        text: "Bart Bonte"
+      - title: "Publisher"
+        text: "Poki"
+
+#14
+  - grid_class: "col-xs-12 col-sm-6 col-md-3 margin-b-4"
+    image: "img/256x256/coil_256.png"
+    hide_text: "Hide"
+    title: "Coil"
+    subtitle: "Nitrome"
+    description: "<p>Coil is a puzzle game created by Nitrome. Your objective is to guide an electric snake towards the exit of the level. The snake starts small and gets bigger every time you feed it the energy blocks scattered all across the level.</p>"
+    cta: "Show me more"
+    href: "https://poki.com/en/g/coil"
+    tags:
+      - text: "Poki"
+        href: "https://poki.com"
+    parameters:
+      - title: "Creator"
+        text: "Nitrome"
+      - title: "Publisher"
+        text: "Poki"
+
+#15
+  - grid_class: "col-xs-12 col-sm-6 col-md-3 margin-b-4"
+    image: "img/256x256/twinshot1_256.png"
+    hide_text: "Hide"
+    title: "Twin Shot"
+    subtitle: "Nitrome"
+    description: "<p>Twin Shot is a multiplayer adventure platform game released by Nitrome in 6 February 2009. You play as angels who use their bows and arrows to defend their territory from invaders.</p>"
+    cta: "Show me more"
+    href: "https://poki.com/en/g/twin-shot"
+    tags:
+      - text: "Poki"
+        href: "https://poki.com"
+    parameters:
+      - title: "Creator"
+        text: "Nitrome"
+      - title: "Publisher"
+        text: "Poki"
+
+#16
+  - grid_class: "col-xs-12 col-sm-6 col-md-3 margin-b-4"
+    image: "img/256x256/fp2_256.png"
+    hide_text: "Hide"
+    title: "Fancy Pants World 2"
+    subtitle: "Brad Borne"
+    description: "<p>The Fancy Pants Adventures: World 2 is an epic adventure platformer created by Brad Borne. Run through dense forests, underwater caverns, and pirate ships while you stomp, kick and slash your enemies with 40 melee weapons.</p>"
+    cta: "Show me more"
+    href: "https://poki.com/en/g/fancy-pants-2"
+    tags:
+      - text: "Poki"
+        href: "https://poki.com"
+    parameters:
+      - title: "Creator"
+        text: "Brad Borne"
+      - title: "Publisher"
+        text: "Poki"
+
+#17
+  - grid_class: "col-xs-12 col-sm-6 col-md-3 margin-b-4"
+    image: "img/256x256/bic3_256.png"
+    hide_text: "Hide"
+    title: "Bad Ice Cream 3"
+    subtitle: "Nitrome"
+    description: "<p>Bad Ice-Cream 3 is a 2-player puzzle game developed by Nitrome on 11 December 2013. Bad Ice-Cream 3 lets you play as a vanilla, chocolate, or strawberry flavored frozen treat that tries to consume fruits in each of the stages.</p>"
+    cta: "Show me more"
+    href: "https://poki.com/en/g/bad-ice-cream-3"
+    tags:
+      - text: "Poki"
+        href: "https://poki.com"
+    parameters:
+      - title: "Creator"
+        text: "Nitrome"
+      - title: "Publisher"
+        text: "Poki"
+
+#18
+  - grid_class: "col-xs-12 col-sm-6 col-md-3 margin-b-4"
+    image: "img/256x256/girp_256.png"
+    hide_text: "Hide"
+    title: "GIRP"
+    subtitle: "Bennett Foddy"
+    description: "<p>GIRP is a skill game created by Bennett Foddy. Demonstrate your rock-climbing skills using the alphabet! Press your keyboard keys assigned to rocks on a wall to flex and ascend its surface.</p>"
+    cta: "Show me more"
+    href: "https://poki.com/en/g/girp"
+    tags:
+      - text: "Poki"
+        href: "https://poki.com"
+    parameters:
+      - title: "Creator"
+        text: "Bennett Foddy"
+      - title: "Publisher"
+        text: "Poki"
+
+#19
+  - grid_class: "col-xs-12 col-sm-6 col-md-3 margin-b-4"
+    image: "img/256x256/tiq2_256.png"
+    hide_text: "Hide"
+    title: "The Impossible Quiz 2"
+    subtitle: "Splapp-me-do"
+    description: "<p>The Impossible Quiz 2 is the second installment of the hardest trivia quiz on the word wide web. Questions even got more tricky than in the first quiz, which makes this game officially the hardest one available.</p>"
+    cta: "Show me more"
+    href: "https://poki.com/en/g/the-impossible-quiz-2"
+    tags:
+      - text: "Poki"
+        href: "https://poki.com"
+    parameters:
+      - title: "Creator"
+        text: "Splapp-me-do"
+      - title: "Publisher"
+        text: "Poki"
+
+#20
+  - grid_class: "col-xs-12 col-sm-6 col-md-3 margin-b-4"
+    image: "img/256x256/cavechaos2_256.jpg"
+    hide_text: "Hide"
+    title: "Cave Chaos 2"
+    subtitle: "Nitrome"
+    description: "<p>Cave Chaos 2 is a multiplayer platforming game created by Nitrome were the user plays as a miner escaping from a cave. Help this little miner escape safe and sound! Run away from the collapsing cave and make sure to pick up the loot on your way before reaching the end of the level.</p>"
+    cta: "Show me more"
+    href: "https://poki.com/en/g/cave-chaos-2"
+    tags:
+      - text: "Poki"
+        href: "https://poki.com"
+    parameters:
+      - title: "Creator"
+        text: "Nitrome"
+      - title: "Publisher"
+        text: "Poki"
+
+#21
+  - grid_class: "col-xs-12 col-sm-6 col-md-3 margin-b-4"
+    image: "img/256x256/stealingthediamond_256.png"
+    hide_text: "Hide"
+    title: "Stealing The Diamond"
+    subtitle: "Puffballs United"
+    description: "<p>Stealing the Diamond is the third installment of the popular Henry Stickmin game series. Help Henry Stickmin break into a museum and execute a diamond heist.</p>"
+    cta: "Show me more"
+    href: "https://poki.com/en/g/stealing-the-diamond"
+    tags:
+      - text: "Poki"
+        href: "https://poki.com"
+    parameters:
+      - title: "Creator"
+        text: "Puffballs United"
+      - title: "Publisher"
+        text: "Poki"
+
+#22
+  - grid_class: "col-xs-12 col-sm-6 col-md-3 margin-b-4"
+    image: "img/256x256/tsblue_256.jpg"
+    hide_text: "Hide"
+    title: "Test Subject Blue"
+    subtitle: "Nitrome"
+    description: "<p>Test Subject Blue is an adventure platformer game developed by Nitrome on 2 March 2011. You are a scientist performing experiments with organic creatures.</p>"
+    cta: "Show me more"
+    href: "https://poki.com/en/g/test-subject-blue"
+    tags:
+      - text: "Poki"
+        href: "https://poki.com"
+    parameters:
+      - title: "Creator"
+        text: "Nitrome"
+      - title: "Publisher"
+        text: "Poki"
+
+#23
+  - grid_class: "col-xs-12 col-sm-6 col-md-3 margin-b-4"
+    image: "img/256x256/sugarsugar3_256.jpg"
+    hide_text: "Hide"
+    title: "Sugar Sugar 3"
+    subtitle: "Bart Bonte"
+    description: "<p>Pour grains of sugar into the cup! In this puzzle sequel, you must draw ramps and curvy paths. Advanced levels include multiple cups and coffee filters. Guide sugar through colored filters to match the corresponding mugs.</p>"
+    cta: "Show me more"
+    href: "https://poki.com/en/g/sugar-sugar-3"
+    tags:
+      - text: "Poki"
+        href: "https://poki.com"
+    parameters:
+      - title: "Creator"
+        text: "Bart Bonte"
+      - title: "Publisher"
+        text: "Poki"
+
+#24
+  - grid_class: "col-xs-12 col-sm-6 col-md-3 margin-b-4"
+    image: "img/256x256/getontop_256.png"
+    hide_text: "Hide"
+    title: "Get On Top"
+    subtitle: "Bennett Foddy"
+    description: "<p>Get on Top is a 2-player fighting game created by Bennett Foddy. Wrestle with your friend and try to knock their heads against the floor to win the round. Use the movement keys to jump, push, and pull to get on top of the other fighter.</p>"
+    cta: "Show me more"
+    href: "https://poki.com/en/g/get-on-top"
+    tags:
+      - text: "Poki"
+        href: "https://poki.com"
+    parameters:
+      - title: "Creator"
+        text: "Bennett Foddy"
+      - title: "Publisher"
+        text: "Poki"
+
+#25
+  - grid_class: "col-xs-12 col-sm-6 col-md-3 margin-b-4"
+    image: "img/256x256/tiqmas_256.jpg"
+    hide_text: "Hide"
+    title: "The Impossible Quizmas"
+    subtitle: "Splapp-me-do"
+    description: "<p>🎅 The Impossible Quizmas is an online christmas themed trivia game created by Splapp-me-do. This hilarious holiday game includes so many tricky questions. Sometimes, you have to choose the funniest answer. During other rounds, you must find hidden goodies.</p>"
+    cta: "Show me more"
+    href: "https://poki.com/en/g/the-impossible-quizmas"
+    tags:
+      - text: "Poki"
+        href: "https://poki.com"
+    parameters:
+      - title: "Creator"
+        text: "Splapp-me-do"
+      - title: "Publisher"
+        text: "Poki"
+
+#26
+  - grid_class: "col-xs-12 col-sm-6 col-md-3 margin-b-4"
+    image: "img/256x256/infiltratingtheairship_256.png"
+    hide_text: "Hide"
+    title: "Infiltrating The Airship"
+    subtitle: "Puffballs United"
+    description: "<p>Infiltrating the Airship is the fourth installment of the popular Henry Stickmin game series. Try not to fail during a deadly mission in the sky! Infiltrating the Airship dares you to make risky decisions in life-or-death situations.</p>"
+    cta: "Show me more"
+    href: "https://poki.com/en/g/infiltrating-the-airship"
+    tags:
+      - text: "Poki"
+        href: "https://poki.com"
+    parameters:
+      - title: "Creator"
+        text: "Puffballs United"
+      - title: "Publisher"
+        text: "Poki"
+
+#27
+  - grid_class: "col-xs-12 col-sm-6 col-md-3 margin-b-4"
+    image: "img/256x256/fp3_256.png"
+    hide_text: "Hide"
+    title: "Fancy Pants World 3"
+    subtitle: "Brad Borne"
+    description: "<p>The Fancy Pants Adventures: World 3 is an epic adventure platformer created by Brad Borne. In the third chapter of this legendary series, you will go on a homegrown, hand-drawn adventure to help the king.</p>"
+    cta: "Show me more"
+    href: "https://poki.com/en/g/fancy-pants-3"
+    tags:
+      - text: "Poki"
+        href: "https://poki.com"
+    parameters:
+      - title: "Creator"
+        text: "Brad Borne"
+      - title: "Publisher"
+        text: "Poki"
+
+#28
+  - grid_class: "col-xs-12 col-sm-6 col-md-3 margin-b-4"
+    image: "img/256x256/fleeingthecomplex_256.png"
+    hide_text: "Hide"
+    title: "Fleeing The Complex"
+    subtitle: "Puffballs United"
+    description: "<p>Fleeing the Complex is the fifth and last game of the Henry Stickmin legacy series. In this game, your objective is to help Henry Stickmin break out of Holding Cell B!</p>"
+    cta: "Show me more"
+    href: "https://poki.com/en/g/fleeing-the-complex"
+    tags:
+      - text: "Poki"
+        href: "https://poki.com"
+    parameters:
+      - title: "Creator"
+        text: "Puffballs United"
+      - title: "Publisher"
+        text: "Poki"
+
+#29
+  - grid_class: "col-xs-12 col-sm-6 col-md-3 margin-b-4"
+    image: "img/256x256/dinorun_256.png"
+    hide_text: "Hide"
+    title: "Dino Run"
+    subtitle: "Pixeljam"
+    description: "<p>Dino Run is a classic running game, created by Pixeljam. You play as a dinosaur and you have to run from extinction. Prevent the extinction of your species by running away from flying meteorites and evil dinosaurs!</p>"
+    cta: "Show me more"
+    href: "https://poki.com/en/g/dino-run"
+    tags:
+      - text: "Poki"
+        href: "https://poki.com"
+    parameters:
+      - title: "Creator"
+        text: "Pixeljam"
+      - title: "Publisher"
+        text: "Poki"
