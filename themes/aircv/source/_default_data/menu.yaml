@@ -4,11 +4,11 @@
 #- text: News
 #  href: "#news"
 
-- text: Showcase
-  href: "#showcase"
-
 - text: Features
   href: "#features"
+
+- text: Showcase
+  href: "#showcase"
 
 - text: Sponsors
   href: "#sponsors"
