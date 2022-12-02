@@ -25,5 +25,8 @@
     "image-size": "^1.0.2",
     "imageinfo": "^1.0.4",
     "js-yaml": "^4.1.0"
+  },
+  "devDependencies": {
+    "hexo-renderer-sass": "github:kmuncie/hexo-renderer-sass"
   }
 }
