@@ -3,13 +3,20 @@
 ------------------------------------------------------------------*/
 
 .sponsor {
-	background: $color-white;
-	padding: 30px;
+	@include position(relative);
+	display: block;
 
 	.sponsor-element,
 	.sponsor-info {
 		@include translate3d(0,0,0);
 		@include cubic-transition($delay: 0, $duration: 300ms, $property: (all));
+	}
+
+	.sponsor-element {
+		background: $color-white;
+		min-width: 220px;
+		min-height: 250px;
+		margin: 1% 2%;
 	}
 
 	.sponsor-icon {
@@ -23,8 +30,14 @@
         display: block;
         margin-left: auto;
         margin-right: auto;
-        max-width: 100%;
+        max-width: 170px;
+		min-height: 170px;
+		object-fit: scale-down;
     }
+
+	.sponsor-info {
+		text-align: center;
+	}
     
 	.sponsor-button {
 		visibility: hidden;
@@ -33,20 +46,14 @@
 	}
 
 	&:hover {
-		.sponsor-element {
-			opacity: 0;
-			@include translate3d(0,-100%,0);
-			@include cubic-transition($delay: 0, $duration: 300ms, $property: (all));
-		}
-
 		.sponsor-info {
-			@include translate3d(0,-30%,0);
+			@include translate3d(0,-20%,0);
 			@include cubic-transition($delay: 0, $duration: 300ms, $property: (all));
 		}
 
 		.sponsor-button {
 			visibility: visible;
-  		opacity: 1;
+  			opacity: 1;
 		}
 	}
 }
@@ -57,5 +64,11 @@
 			visibility: visible;
 			opacity: 1;
 		}
+	}
+}
+
+@media (max-width: $screen-xs-max) {
+	.sponsor-item {
+		width: 100%;
 	}
 }

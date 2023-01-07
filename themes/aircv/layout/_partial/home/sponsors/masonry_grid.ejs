@@ -1,0 +1,35 @@
+
+<%
+// adds default data usign "theme/aircv/scripts/default-data.js" helper
+let sponsors = (site.data.sponsors !== undefined) ? site.data.sponsors : defaultData('sponsors');
+%>
+
+<!-- Masonry Grid -->
+<div class="masonry-grid row row-space-2">
+
+  <div class="masonry-grid-sizer col-xs-12 col-sm-4 col-md-1"></div>
+
+  <% sponsors.items.forEach(item => { %>
+    <div class="sponsor-item masonry-grid-item">
+      <!-- Sponsor -->
+      <div class="sponsor <% if(item.featured) { %> bg-color-base wow zoomIn <% } %>" <% if(item.featured) { %> data-wow-duration=".3" data-wow-delay=".1s" <% } %> >
+          <div class="sponsor-element">
+              <i class="sponsor-icon <%= item.icon %>"></i>
+              <img class="sponsor-img" src="<%= item.image %>" ></img> 
+              <div class="sponsor-info">
+                  <h3 <% if(item.featured) { %> class="color-white" <% } %> > <%- item.title %></h3>
+                  <p class=" <% if(item.featured) { %> color-white <% } %>"><%- item.content %></p>
+                  <% if(item.button) { %>
+                      <div class="sponsor-button">
+                          <button class="btn btn-theme <%= (item.featured) ? 'btn-white-bg' : 'btn-default-bg' %>"> <%= item.button %> </button>
+                      </div>
+                  <% } %>
+              </div>
+              <a href="<%= item.href %>" class="content-wrapper-link"></a>
+          </div>
+      </div>
+      <!-- End Sponsor -->
+  </div>
+  <% }); %>
+</div>
+<!-- End Masonry Grid -->

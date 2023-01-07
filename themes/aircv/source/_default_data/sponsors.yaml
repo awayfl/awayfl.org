@@ -1,34 +1,40 @@
 title: Sponsors
 
 items:
-  - title: 
-    content: ""
+  - title: "Coolmath Games"
+    content: 
+    href: "https://www.coolmathgames.com/"
+    button: ""
+    image: "img/sponsors/coolmathgames.png"
+    featured: false
+  - title: "Poki"
+    content: 
     href: "https://poki.com"
-    button: "Poki >"
+    button: ""
     image: "img/sponsors/logo_main_crop.png"
     featured: false
-  - title: 
+  - title: "Damp Gnat"
     content: ""
     href: "http://www.dampgnat.com/"
-    button: "Damp Gnat >"
+    button: ""
     image: "img/sponsors/DampGnat_logo05_stacked.png"
     featured: false
-  - title: 
+  - title: "Sunflower Learning"
     content: ""
     href: "https://www.sunflowerlearning.com/"
-    button: "Sunflower >"
+    button: ""
     image: "img/sponsors/sunflower-logo.png"
     featured: false
-  - title: 
+  - title: "Satprof"
     content: ""
     href: "https://satprof.com/"
-    button: "Satprof >"
-    image: "img/sponsors/SatProfLogo2018_LightTransparentwhole200px1.png"
+    button: ""
+    image: "img/sponsors/Satprof.png"
     featured: false
-  - title: 
+  - title: "Maths-Whizz"
     content: ""
     href: "https://www.whizz.com/"
-    button: "Maths-Whizz >"
+    button: ""
     image: "img/sponsors/en-gb.svg"
     featured: false
 #  - title: Empty
