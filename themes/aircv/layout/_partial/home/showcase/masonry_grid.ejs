@@ -10,7 +10,7 @@ let showcase = (site.data.showcase !== undefined) ? site.data.showcase : default
   <div class="masonry-grid-sizer col-xs-6 col-sm-4 col-md-2 margin-b-4"></div>
 
   <% showcase.items.forEach(item => { %>
-    <div class="masonry-grid-item <%= item.grid_class %>">
+    <div class="masonry-grid-item col-xs-6 col-sm-4 col-md-2 margin-b-4">
       <!-- Work -->
       <div class="work work-popup-trigger">
           <div class="work-overlay">
@@ -29,13 +29,16 @@ let showcase = (site.data.showcase !== undefined) ? site.data.showcase : default
                   <div class="row">
                       <div class="col-sm-8 work-popup-content-divider sm-margin-b-20">
                           <div class="margin-t-10 sm-margin-t-0">
-                            <%- item.description %>
+                            <p>
+                              <%- item.description %>
+                            </p>
                             <% if(item.cta) {%>
                               <p>
                                 <b><a href="<%= item.href %>"> <%= item.cta %> </a></b>
                               </p>
                             <% } %>
                             <ul class="list-inline work-popup-tag">
+                              <% if (item.tags) { %>
                                 <% item.tags.forEach( tag => { %>
                                   <li class="work-popup-tag-item">
                                     <% if (tag.href) { %>
@@ -45,6 +48,7 @@ let showcase = (site.data.showcase !== undefined) ? site.data.showcase : default
                                     <% } %>
                                   </li>
                                 <% }) %>
+                              <% } %>
                             </ul>
                           </div>
                       </div>
