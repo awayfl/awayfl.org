@@ -2,7 +2,7 @@ title: Showcase
 
 items:
 #1
-  - grid_class: "col-xs-12 col-sm-6 col-md-3 margin-b-4"
+  - grid_class: "col-xs-6 col-sm-4 col-md-2 margin-b-4"
     image: "img/256x256/bic1_256.png"
     hide_text: "Hide"
     title: "Bad Ice Cream"
@@ -20,7 +20,7 @@ items:
         text: "Poki"
 
 #2
-  - grid_class: "col-xs-12 col-sm-6 col-md-3 margin-b-4"
+  - grid_class: "col-xs-6 col-sm-4 col-md-2 margin-b-4"
     image: "img/256x256/sugarsugar_256.png"
     hide_text: "Hide"
     title: "Sugar Sugar"
@@ -38,7 +38,7 @@ items:
         text: "Poki"
 
 #3
-  - grid_class: "col-xs-12 col-sm-6 col-md-3 margin-b-4"
+  - grid_class: "col-xs-6 col-sm-4 col-md-2 margin-b-4"
     image: "img/256x256/fp1_256.png"
     hide_text: "Hide"
     title: "Fancy Pants World 1"
@@ -56,7 +56,7 @@ items:
         text: "Poki"
 
 #4
-  - grid_class: "col-xs-12 col-sm-6 col-md-3 margin-b-4"
+  - grid_class: "col-xs-6 col-sm-4 col-md-2 margin-b-4"
     image: "img/256x256/breakingthebank_256.png"
     hide_text: "Hide"
     title: "Breaking The Bank"
@@ -74,7 +74,7 @@ items:
         text: "Poki"
 
 #5
-  - grid_class: "col-xs-12 col-sm-6 col-md-3 margin-b-4"
+  - grid_class: "col-xs-6 col-sm-4 col-md-2 margin-b-4"
     image: "img/256x256/cavechaos1_256.png"
     hide_text: "Hide"
     title: "Cave Chaos"
@@ -92,7 +92,7 @@ items:
         text: "Poki"
 
 #6
-  - grid_class: "col-xs-12 col-sm-6 col-md-3 margin-b-4"
+  - grid_class: "col-xs-6 col-sm-4 col-md-2 margin-b-4"
     image: "img/256x256/skywire1_256.png"
     hide_text: "Hide"
     title: "Skywire"
@@ -110,7 +110,7 @@ items:
         text: "Poki"
 
 #7
-  - grid_class: "col-xs-12 col-sm-6 col-md-3 margin-b-4"
+  - grid_class: "col-xs-6 col-sm-4 col-md-2 margin-b-4"
     image: "img/256x256/bic2_256.png"
     hide_text: "Hide"
     title: "Bad Ice Cream 2"
@@ -128,7 +128,7 @@ items:
         text: "Poki"
 
 #8
-  - grid_class: "col-xs-12 col-sm-6 col-md-3 margin-b-4"
+  - grid_class: "col-xs-6 col-sm-4 col-md-2 margin-b-4"
     image: "img/256x256/mutiny_256.png"
     hide_text: "Hide"
     title: "Mutiny"
@@ -146,7 +146,7 @@ items:
         text: "Poki"
 
 #9
-  - grid_class: "col-xs-12 col-sm-6 col-md-3 margin-b-4"
+  - grid_class: "col-xs-6 col-sm-4 col-md-2 margin-b-4"
     image: "img/256x256/escapingtheprison_256.png"
     hide_text: "Hide"
     title: "escaping The Prison"
@@ -164,7 +164,7 @@ items:
         text: "Poki"
 
 #10
-  - grid_class: "col-xs-12 col-sm-6 col-md-3 margin-b-4"
+  - grid_class: "col-xs-6 col-sm-4 col-md-2 margin-b-4"
     image: "img/256x256/toomanyninjas_256.png"
     hide_text: "Hide"
     title: "Too Many Ninjas"
@@ -182,7 +182,7 @@ items:
         text: "Poki"
 
 #11
-  - grid_class: "col-xs-12 col-sm-6 col-md-3 margin-b-4"
+  - grid_class: "col-xs-6 col-sm-4 col-md-2 margin-b-4"
     image: "img/256x256/coldstorage_256.jpg"
     hide_text: "Hide"
     title: "Cold Storage"
@@ -200,7 +200,7 @@ items:
         text: "Poki"
 
 #12
-  - grid_class: "col-xs-12 col-sm-6 col-md-3 margin-b-4"
+  - grid_class: "col-xs-6 col-sm-4 col-md-2 margin-b-4"
     image: "img/256x256/tiq_256.png"
     hide_text: "Hide"
     title: "The Impossible Quiz"
@@ -218,7 +218,7 @@ items:
         text: "Poki"
 
 #13
-  - grid_class: "col-xs-12 col-sm-6 col-md-3 margin-b-4"
+  - grid_class: "col-xs-6 col-sm-4 col-md-2 margin-b-4"
     image: "img/256x256/sugarsugar2_256.png"
     hide_text: "Hide"
     title: "Sugar Sugar 2"
@@ -236,7 +236,7 @@ items:
         text: "Poki"
 
 #14
-  - grid_class: "col-xs-12 col-sm-6 col-md-3 margin-b-4"
+  - grid_class: "col-xs-6 col-sm-4 col-md-2 margin-b-4"
     image: "img/256x256/coil_256.png"
     hide_text: "Hide"
     title: "Coil"
@@ -254,7 +254,7 @@ items:
         text: "Poki"
 
 #15
-  - grid_class: "col-xs-12 col-sm-6 col-md-3 margin-b-4"
+  - grid_class: "col-xs-6 col-sm-4 col-md-2 margin-b-4"
     image: "img/256x256/twinshot1_256.png"
     hide_text: "Hide"
     title: "Twin Shot"
@@ -272,7 +272,7 @@ items:
         text: "Poki"
 
 #16
-  - grid_class: "col-xs-12 col-sm-6 col-md-3 margin-b-4"
+  - grid_class: "col-xs-6 col-sm-4 col-md-2 margin-b-4"
     image: "img/256x256/fp2_256.png"
     hide_text: "Hide"
     title: "Fancy Pants World 2"
@@ -290,7 +290,7 @@ items:
         text: "Poki"
 
 #17
-  - grid_class: "col-xs-12 col-sm-6 col-md-3 margin-b-4"
+  - grid_class: "col-xs-6 col-sm-4 col-md-2 margin-b-4"
     image: "img/256x256/bic3_256.png"
     hide_text: "Hide"
     title: "Bad Ice Cream 3"
@@ -308,7 +308,7 @@ items:
         text: "Poki"
 
 #18
-  - grid_class: "col-xs-12 col-sm-6 col-md-3 margin-b-4"
+  - grid_class: "col-xs-6 col-sm-4 col-md-2 margin-b-4"
     image: "img/256x256/girp_256.png"
     hide_text: "Hide"
     title: "GIRP"
@@ -326,7 +326,7 @@ items:
         text: "Poki"
 
 #19
-  - grid_class: "col-xs-12 col-sm-6 col-md-3 margin-b-4"
+  - grid_class: "col-xs-6 col-sm-4 col-md-2 margin-b-4"
     image: "img/256x256/tiq2_256.png"
     hide_text: "Hide"
     title: "The Impossible Quiz 2"
@@ -344,7 +344,7 @@ items:
         text: "Poki"
 
 #20
-  - grid_class: "col-xs-12 col-sm-6 col-md-3 margin-b-4"
+  - grid_class: "col-xs-6 col-sm-4 col-md-2 margin-b-4"
     image: "img/256x256/cavechaos2_256.jpg"
     hide_text: "Hide"
     title: "Cave Chaos 2"
@@ -362,7 +362,7 @@ items:
         text: "Poki"
 
 #21
-  - grid_class: "col-xs-12 col-sm-6 col-md-3 margin-b-4"
+  - grid_class: "col-xs-6 col-sm-4 col-md-2 margin-b-4"
     image: "img/256x256/stealingthediamond_256.png"
     hide_text: "Hide"
     title: "Stealing The Diamond"
@@ -380,7 +380,7 @@ items:
         text: "Poki"
 
 #22
-  - grid_class: "col-xs-12 col-sm-6 col-md-3 margin-b-4"
+  - grid_class: "col-xs-6 col-sm-4 col-md-2 margin-b-4"
     image: "img/256x256/tsblue_256.jpg"
     hide_text: "Hide"
     title: "Test Subject Blue"
@@ -398,7 +398,7 @@ items:
         text: "Poki"
 
 #23
-  - grid_class: "col-xs-12 col-sm-6 col-md-3 margin-b-4"
+  - grid_class: "col-xs-6 col-sm-4 col-md-2 margin-b-4"
     image: "img/256x256/sugarsugar3_256.jpg"
     hide_text: "Hide"
     title: "Sugar Sugar 3"
@@ -416,7 +416,7 @@ items:
         text: "Poki"
 
 #24
-  - grid_class: "col-xs-12 col-sm-6 col-md-3 margin-b-4"
+  - grid_class: "col-xs-6 col-sm-4 col-md-2 margin-b-4"
     image: "img/256x256/getontop_256.png"
     hide_text: "Hide"
     title: "Get On Top"
@@ -434,7 +434,7 @@ items:
         text: "Poki"
 
 #25
-  - grid_class: "col-xs-12 col-sm-6 col-md-3 margin-b-4"
+  - grid_class: "col-xs-6 col-sm-4 col-md-2 margin-b-4"
     image: "img/256x256/tiqmas_256.jpg"
     hide_text: "Hide"
     title: "The Impossible Quizmas"
@@ -452,7 +452,7 @@ items:
         text: "Poki"
 
 #26
-  - grid_class: "col-xs-12 col-sm-6 col-md-3 margin-b-4"
+  - grid_class: "col-xs-6 col-sm-4 col-md-2 margin-b-4"
     image: "img/256x256/infiltratingtheairship_256.png"
     hide_text: "Hide"
     title: "Infiltrating The Airship"
@@ -470,7 +470,7 @@ items:
         text: "Poki"
 
 #27
-  - grid_class: "col-xs-12 col-sm-6 col-md-3 margin-b-4"
+  - grid_class: "col-xs-6 col-sm-4 col-md-2 margin-b-4"
     image: "img/256x256/fp3_256.png"
     hide_text: "Hide"
     title: "Fancy Pants World 3"
@@ -488,7 +488,7 @@ items:
         text: "Poki"
 
 #28
-  - grid_class: "col-xs-12 col-sm-6 col-md-3 margin-b-4"
+  - grid_class: "col-xs-6 col-sm-4 col-md-2 margin-b-4"
     image: "img/256x256/fleeingthecomplex_256.png"
     hide_text: "Hide"
     title: "Fleeing The Complex"
@@ -506,7 +506,7 @@ items:
         text: "Poki"
 
 #29
-  - grid_class: "col-xs-12 col-sm-6 col-md-3 margin-b-4"
+  - grid_class: "col-xs-6 col-sm-4 col-md-2 margin-b-4"
     image: "img/256x256/dinorun_256.png"
     hide_text: "Hide"
     title: "Dino Run"
