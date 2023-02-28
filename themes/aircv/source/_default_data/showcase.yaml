@@ -27,6 +27,19 @@ items:
       - title: "Publisher"
         text: "Coolmath Games"
 
+  - image: "img/256x256/papas-taco-mia.png"
+    hide_text: "Hide"
+    title: "Papa's Taco Mia"
+    subtitle: "By Flipline Studios"
+    description: "Papa's Taco Mia is a cooking game created by Flipline Studios. Build the biggest, wackiest Taqueria anyone has ever seen! After winning a taco eating contest, you're awarded the keys to Papa's Taco Mia! Good luck though, because all your favorite customers are back, and they brought friends. Unlock all sorts of ingredients and upgrade your shop for style and speed. Try to please those picky Closers, and mystify Jojo the food critic with your wild taco-making skills! Take orders, prepare the shells, add toppings, and serve! Use your hard-earned tips to buy restaurant upgrades and hats to wear, and you can also decorate your lobby with furniture and posters from the Furniture Shop. Can you turn your taqueria into the most famous fast-food chain in the world?"
+    cta: "Play now!"
+    href: "https://poki.com/en/g/papas-taco-mia"
+    parameters:
+      - title: "Creator"
+        text: "Flipline Studios"
+      - title: "Publisher"
+        text: "Poki"
+
   - image: "img/256x256/papas-bakeria.png"
     hide_text: "Close"
     title: "Papa's Bakeria"
@@ -302,7 +315,7 @@ items:
 
   - image: "img/256x256/escapingtheprison_256.png"
     hide_text: "Close"
-    title: "escaping The Prison"
+    title: "Escaping The Prison"
     subtitle: "By Puffballs United"
     description: "Escaping the Prison is the second installment of the Henry Stickmin legacy series. Your objective is to get past the guards without being caught."
     cta: "Play now!"
@@ -805,6 +818,7 @@ items:
       - title: "Creator"
         text: "Nitrome"
       - title: "Publisher"
+        text: "Poki"
 
   - image: "img/256x256/skywire-vip.png"
     hide_text: "Close"
@@ -856,6 +870,7 @@ items:
       - title: "Creator"
         text: "Nitrome"
       - title: "Publisher"
+        text: "Poki"
 
   - image: "img/256x256/test-subject-complete.png"
     hide_text: "Close"
@@ -933,6 +948,7 @@ items:
       - title: "Creator"
         text: "Nitrome"
       - title: "Publisher"
+        text: "Poki"
 
   - image: "img/256x256/onekey.png"
     hide_text: "Close"
@@ -971,6 +987,7 @@ items:
       - title: "Creator"
         text: "Nitrome"
       - title: "Publisher"
+        text: "Poki"
 
   - image: "img/256x256/nanobots.png"
     hide_text: "Close"
