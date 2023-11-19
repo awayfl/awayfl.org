@@ -273,9 +273,9 @@
              * @type {File} 
              **/
             const file = dt.files[0];
+            const acceptedTypes = ['', 'application/x-shockwave-flash', 'application/vnd.adobe.flash.movie'];
 
-            if(!file || file.type !== 'application/x-shockwave-flash' && file.type !== '') {
-
+            if (!(file && acceptedTypes.includes(file.type))) {
                 showHint('error');
                 return;
             }
