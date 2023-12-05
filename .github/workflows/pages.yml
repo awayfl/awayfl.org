@@ -21,10 +21,8 @@ jobs:
           key: ${{ runner.OS }}-npm-cache
           restore-keys: |
             ${{ runner.OS }}-npm-cache
-      - name: Install bun
-        run: npm i -G bun
       - name: Install Dependencies
-        run: bun install
+        run: npx bun install
       - name: Build
         run: npm run build
       - name: Deploy
