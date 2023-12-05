@@ -23,7 +23,7 @@ jobs:
       - name: Install Dependencies
         uses: oven-sh/setup-bun@v1 # Setup bun
         with:
-            bun-version: latest # You can also use a specific version
+            bun-version: latest
       - run: bun install
       - name: Build
         run: npm run build
