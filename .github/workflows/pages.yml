@@ -4,7 +4,6 @@ on:
   push:
     branches:
       - main  # default branch
-      - faster-ci
 jobs:
   pages:
     runs-on: ubuntu-latest
