@@ -40,7 +40,7 @@ content: |
   
   Download **awayfl-embed** either as a [zip file](https://github.com/awayfl/awayfl-embed/archive/refs/heads/master.zip) or [Github project](https://github.com/awayfl/awayfl-embed)
 
-  Use the following code (or copy/paste from the `example/index.html` file) to create a custom player for your swf file, ensuring embed.js points to the correct file:
+  Use the following code (or copy/paste from the `example/index.html` file) to create a custom player for your swf file, ensuring the path to `embed.js` in the script tag is correct:
 
   ``` html
   <!DOCTYPE html>
