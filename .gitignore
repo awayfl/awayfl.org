@@ -18,7 +18,6 @@ public/
 .deploy/
 *.iml
 package-lock.json
-yarn.lock
 
 # Misc
 deploy_key
