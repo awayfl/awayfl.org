@@ -101,9 +101,9 @@
                       
                         <li class="js_nav-item nav-item">
                             <a  class="nav-item-child nav-item-hover"
-                                href="#features"
+                                href="#setup"
                             >
-                            Features
+                            Setup
                         </a>
                         </li>
                       
@@ -172,120 +172,52 @@
 
 
 
-<!-- Features -->
-<div id="features">
+<!-- Setup -->
+<div id="setup">
   <div class="container content-lg">
-      <div class="row">
-          <div class="margin-b-40">
-            <h2 class="margin-b-0">Features</h2>
-          </div>
-          <div class="col-sm-6">
-              <div class="margin-b-40">
-                  <p>Supported</p>
-              </div>
+          <h2 id="Setup"><a href="#Setup" class="headerlink" title="Setup"></a>Setup</h2><p>AwayFL can be installed locally for your own use in a couple of different ways.</p>
+<h3 id="1-Embed-script"><a href="#1-Embed-script" class="headerlink" title="1. Embed script"></a>1. Embed script</h3><p><em>Creates a simple, deployable html page for use with your own swfs.</em></p>
+<p>Download <strong>awayfl-embed</strong> either as a <a target="_blank" rel="noopener" href="https://github.com/awayfl/awayfl-embed/archive/refs/heads/master.zip">zip file</a> or <a target="_blank" rel="noopener" href="https://github.com/awayfl/awayfl-embed">Github project</a></p>
+<p>Use the following code (or copy&#x2F;paste from the <code>example/index.html</code> file) to create a custom player for your swf file, ensuring embed.js points to the correct file:</p>
+<pre><code class="html">&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+    &lt;meta charset=&quot;UTF-8&quot;&gt;
+    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;
+    &lt;title&gt;AwayFL Embed Example&lt;/title&gt;
+    &lt;script src=&quot;../dist/embed.js&quot;&gt;&lt;/script&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;div id = &#39;container&#39;&gt;
 
-              <!-- Progress Box -->
-              
-                <div class="progress-box">
-                    <h5> ActionsScript 1, 2 &amp; 3 execution <span class="color-heading pull-right">90%</span></h5>
-                    <div class="progress">
-                        <div class="progress-bar bg-color-base" role="progressbar" data-width="90"></div>
-                    </div>
-                </div>
-              
-                <div class="progress-box">
-                    <h5> Timeline playback &amp; scripting <span class="color-heading pull-right">100%</span></h5>
-                    <div class="progress">
-                        <div class="progress-bar bg-color-base" role="progressbar" data-width="100"></div>
-                    </div>
-                </div>
-              
-                <div class="progress-box">
-                    <h5> MovieClip, Button, Graphic and Textfield primitives <span class="color-heading pull-right">100%</span></h5>
-                    <div class="progress">
-                        <div class="progress-bar bg-color-base" role="progressbar" data-width="100"></div>
-                    </div>
-                </div>
-              
-                <div class="progress-box">
-                    <h5> Scripted graphics API <span class="color-heading pull-right">90%</span></h5>
-                    <div class="progress">
-                        <div class="progress-bar bg-color-base" role="progressbar" data-width="90"></div>
-                    </div>
-                </div>
-              
-                <div class="progress-box">
-                    <h5> Dynamic masks (timeline &amp; script based) <span class="color-heading pull-right">100%</span></h5>
-                    <div class="progress">
-                        <div class="progress-bar bg-color-base" role="progressbar" data-width="100"></div>
-                    </div>
-                </div>
-              
-                <div class="progress-box">
-                    <h5> Sound manipulation (AS2 &amp; AS3) <span class="color-heading pull-right">80%</span></h5>
-                    <div class="progress">
-                        <div class="progress-bar bg-color-base" role="progressbar" data-width="80"></div>
-                    </div>
-                </div>
-              
-              <!-- End Progress Box -->
-          </div>
-          <div class="col-sm-6">
-            <div class="margin-b-40">
-                <p>In-Development</p>
-            </div>
+    &lt;/div&gt;
 
-            <!-- Progress Box -->
-            
-              <div class="progress-box">
-                  <h5> Flash 8 filter effects <span class="color-heading pull-right">50%</span></h5>
-                  <div class="progress">
-                      <div class="progress-bar bg-color-base" role="progressbar" data-width="50"></div>
-                  </div>
-              </div>
-            
-              <div class="progress-box">
-                  <h5> Photoshop-style blend modes <span class="color-heading pull-right">50%</span></h5>
-                  <div class="progress">
-                      <div class="progress-bar bg-color-base" role="progressbar" data-width="50"></div>
-                  </div>
-              </div>
-            
-              <div class="progress-box">
-                  <h5> Adobe Text Layout Framework (TLF) <span class="color-heading pull-right">40%</span></h5>
-                  <div class="progress">
-                      <div class="progress-bar bg-color-base" role="progressbar" data-width="40"></div>
-                  </div>
-              </div>
-            
-              <div class="progress-box">
-                  <h5> Stage3D APIs &amp; Texture formats <span class="color-heading pull-right">10%</span></h5>
-                  <div class="progress">
-                      <div class="progress-bar bg-color-base" role="progressbar" data-width="10"></div>
-                  </div>
-              </div>
-            
-              <div class="progress-box">
-                  <h5> H.264 Video streaming <span class="color-heading pull-right">5%</span></h5>
-                  <div class="progress">
-                      <div class="progress-bar bg-color-base" role="progressbar" data-width="5"></div>
-                  </div>
-              </div>
-            
-              <div class="progress-box">
-                  <h5> Camera &amp; microphone input <span class="color-heading pull-right">5%</span></h5>
-                  <div class="progress">
-                      <div class="progress-bar bg-color-base" role="progressbar" data-width="5"></div>
-                  </div>
-              </div>
-            
-            <!-- End Progress Box -->
-        </div>
-      </div>
+    &lt;script&gt;
+        swfObject.embedSWF(&#39;Embedded.swf&#39;, &#39;container&#39;, 550, 400);
+    &lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</code></pre>
+<p>&amp;nbsp;</p>
+<h3 id="2-Test-template"><a href="#2-Test-template" class="headerlink" title="2. Test template"></a>2. Test template</h3><p><em>Creates a self-contained project that runs as many swfs as you need, each with their own optional config settings.</em></p>
+<p>Download <strong>awayfl-template</strong> either as a <a target="_blank" rel="noopener" href="https://github.com/awayfl/awayfl-template/archive/refs/heads/master.zip">zip file</a> or <a target="_blank" rel="noopener" href="https://github.com/awayfl/awayfl-template">Github template</a></p>
+<p>Install by executing <code>npm install</code> in the terminal (requires <a target="_blank" rel="noopener" href="https://nodejs.org/en/learn/getting-started/how-to-install-nodejs">Node.js</a>) </p>
+<p>Add various SWFs to your src&#x2F;assets&#x2F; folder, and include the filnames in your <code>awayfl.config.js</code> file like so:</p>
+<pre><code class="js">fileconfigs: [
+  {
+      rt_title: &quot;my Awesome Flash Game&quot;,
+      rt_filename: &quot;my_awesome_flash_game&quot;,
+  },
+],
+</code></pre>
+<p>Run locally by executing <code>npm start</code> and browsing to <code>http://localhost</code></p>
+<p>&amp;nbsp;<br>In both cases, more info can be found in the respective project’s README files</p>
+<p>AwayFL is released under the <a target="_blank" rel="noopener" href="https://www.apache.org/licenses/LICENSE-2.0">Apache 2.0</a> license, and is free to use for both personal and commercial projects, with no restrictions.</p>
+
       <!--// end row -->
   </div>
 </div>
-<!-- End Features -->
+<!-- End Setup -->
 
 
 
