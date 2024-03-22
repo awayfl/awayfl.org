@@ -1,7 +1,25 @@
+# Build and Release Folders
+node_modules/
+
+# Dev files
+npm-debug.log
+.rpt2_cache/
+.npmrc
+
+# Project property files
+.settings/
+.idea/
+.project
 .DS_Store
 Thumbs.db
 db.json
 debug.log
-node_modules/
 public/
 .deploy/
+*.iml
+package-lock.json
+yarn.lock
+
+# Misc
+deploy_key
+deploy_key.pub
