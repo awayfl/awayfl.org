@@ -9,22 +9,23 @@
     "start": "hexo server"
   },
   "hexo": {
-    "version": "6.3.0"
+    "version": "7.1.1"
   },
   "dependencies": {
-    "hexo": "^6.3.0",
+    "hexo": "^7.1.0",
     "hexo-generator-archive": "^2.0.0",
     "hexo-generator-category": "^2.0.0",
     "hexo-generator-index": "^3.0.0",
     "hexo-generator-tag": "^2.0.0",
     "hexo-renderer-ejs": "^2.0.0",
     "hexo-renderer-marked": "^6.0.0",
-    "hexo-renderer-stylus": "^2.1.0",
+    "hexo-renderer-stylus": "^3.0.0",
     "hexo-server": "^3.0.0",
-    "hexo-theme-landscape": "^0.0.3",
-    "image-size": "^1.0.2",
+    "hexo-theme-landscape": "^1.0.0",
+    "image-size": "^1.1.1",
     "imageinfo": "^1.0.4",
-    "js-yaml": "^4.1.0"
+    "js-yaml": "^4.1.0",
+    "yarn": "^1.22.22"
   },
   "devDependencies": {
     "hexo-renderer-sass": "github:kmuncie/hexo-renderer-sass"
