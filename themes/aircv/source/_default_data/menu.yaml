@@ -4,8 +4,8 @@
 #- text: News
 #  href: "#news"
 
-- text: Features
-  href: "#features"
+- text: Setup
+  href: "#setup"
 
 - text: Showcase
   href: "#showcase"

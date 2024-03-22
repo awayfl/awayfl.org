@@ -1,0 +1,91 @@
+title: "Setup"
+supported_subtitle: "Supported"
+supported_skills:
+  - name: ActionsScript 1, 2 & 3 execution
+    percentage: 90
+  - name: Timeline playback & scripting
+    percentage: 100
+  - name: MovieClip, Button, Graphic and Textfield primitives
+    percentage: 100
+  - name: Scripted graphics API
+    percentage: 90
+  - name: Dynamic masks (timeline & script based)
+    percentage: 100
+  - name: Sound manipulation (AS2 & AS3)
+    percentage: 80
+
+development_subtitle: "In-Development"
+
+development_skills:
+  - name:  Flash 8 filter effects 
+    percentage: 50
+  - name: Photoshop-style blend modes
+    percentage: 50
+  - name:  Adobe Text Layout Framework (TLF)
+    percentage: 40
+  - name: Stage3D APIs & Texture formats
+    percentage: 10
+  - name: H.264 Video streaming 
+    percentage: 5
+  - name:  Camera & microphone input
+    percentage: 5
+content: |
+  ## Setup
+
+  AwayFL can be installed locally for your own use in a couple of different ways.
+
+  ### 1. Embed script ###
+  
+  *Creates a simple, deployable html page for use with your own swfs.*
+  
+  Download **awayfl-embed** either as a [zip file](https://github.com/awayfl/awayfl-embed/archive/refs/heads/master.zip) or [Github project](https://github.com/awayfl/awayfl-embed)
+
+  Use the following code (or copy/paste from the `example/index.html` file) to create a custom player for your swf file, ensuring embed.js points to the correct file:
+
+  ``` html
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>AwayFL Embed Example</title>
+      <script src="../dist/embed.js"></script>
+  </head>
+  <body>
+      <div id = 'container'>
+
+      </div>
+
+      <script>
+          swfObject.embedSWF('Embedded.swf', 'container', 550, 400);
+      </script>
+  </body>
+  </html>
+  ```
+  
+  &nbsp;
+   ### 2. Test template ###
+  
+  *Creates a self-contained project that runs as many swfs as you need, each with their own optional config settings.*
+
+  Download **awayfl-template** either as a [zip file](https://github.com/awayfl/awayfl-template/archive/refs/heads/master.zip) or [Github template](https://github.com/awayfl/awayfl-template)
+
+  Install by executing `npm install` in the terminal (requires [Node.js](https://nodejs.org/en/learn/getting-started/how-to-install-nodejs)) 
+
+  Add various SWFs to your src/assets/ folder, and include the filnames in your `awayfl.config.js` file like so:
+
+  ``` js
+  fileconfigs: [
+    {
+        rt_title: "my Awesome Flash Game",
+        rt_filename: "my_awesome_flash_game",
+    },
+  ],
+  ```
+
+  Run locally by executing `npm start` and browsing to `http://localhost`
+
+  &nbsp;
+  In both cases, more info can be found in the respective project's README files
+
+  AwayFL is released under the [Apache 2.0](https://www.apache.org/licenses/LICENSE-2.0) license, and is free to use for both personal and commercial projects, with no restrictions.

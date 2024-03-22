@@ -1,0 +1,14 @@
+
+<%
+// adds default data usign "theme/aircv/scripts/default-data.js" helper
+let setup = (site.data.setup !== undefined) ? site.data.setup : defaultData('setup');
+%>
+
+<!-- Setup -->
+<div id="setup">
+  <div class="container content-lg">
+          <%- markdown(setup.content) %>
+      <!--// end row -->
+  </div>
+</div>
+<!-- End Setup -->
