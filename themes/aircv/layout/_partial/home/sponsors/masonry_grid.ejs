@@ -15,7 +15,7 @@ let sponsors = (site.data.sponsors !== undefined) ? site.data.sponsors : default
       <div class="sponsor <% if(item.featured) { %> bg-color-base wow zoomIn <% } %>" <% if(item.featured) { %> data-wow-duration=".3" data-wow-delay=".1s" <% } %> >
           <div class="sponsor-element">
               <i class="sponsor-icon <%= item.icon %>"></i>
-              <img class="sponsor-img" src="<%= item.image %>" ></img> 
+              <img class="sponsor-img" src="<%= item.image %>" alt="<%= item.title %>"> 
               <div class="sponsor-info">
                   <h3 <% if(item.featured) { %> class="color-white" <% } %> > <%- item.title %></h3>
                   <p class=" <% if(item.featured) { %> color-white <% } %>"><%- item.content %></p>

@@ -18,6 +18,9 @@ let showcase = (site.data.showcase !== undefined) ? site.data.showcase : default
               <div class="work-overlay-label">
                 <p> <%= item.title %></p>
               </div>
+              <% if(item.href) { %>
+                <a class="sr-only" href="<%= item.href %>" aria-label="Open <%= item.title %>"><%= item.title %></a>
+              <% } %>
           </div>
           <div class="work-popup-overlay">
               <div class="work-popup-content">

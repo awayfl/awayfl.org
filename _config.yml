@@ -4,17 +4,17 @@
 
 # Site
 title: AwayFL
-subtitle: ''
-description: ''
-keywords:
+subtitle: Adobe Flash Player Emulator
+description: AwayFL — an open-source Adobe Flash Player emulator for running .SWF files in modern browsers; written in TypeScript.
+keywords: adobe flash emulator, flash emulator, flash player, flash game, flash game emulator, flash game player, flash game player online, flash game player for pc, flash game player for mac, flash game player for linux, flash game player for android, flash game player for ios, flash emulator touch screen support, open source flash player emulator
 author: Rob Bateman
 language: en
-timezone: ''
+timezone: United Kingdom
 favicon: '/img/favicon.ico'
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://example.com/child' and root as '/child/'
-url: http://awayfl.org
+url: https://awayfl.org
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -108,3 +108,15 @@ theme: aircv
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: ''
+
+
+# Robotstxt
+robotstxt:
+  useragent: "*"
+  allow: ["/"]
+  disallow: ["/js/", "/css/"]
+  sitemap: https://awayfl.org/
+
+# Sitemap
+sitemap: sitemap.xml
+
